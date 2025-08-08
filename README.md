@@ -47,7 +47,7 @@ A simple and efficient full-stack doctor appointment booking system that allows 
 1. Clone the repository:
 
   ```bash
-  git clone https://github.com/kusujanakiram/DocSpot.git  
+  git clone https://github.com/legalamani123/DocSpot.git  
   cd doctor-appointment-app
    ```
 
@@ -98,6 +98,6 @@ Please fork the repository and submit a pull request.
 
 This project is licensed under the MIT License.
 
-🔗 Drive : [Project Report Link](https://drive.google.com/drive/folders/1DLBsG5atRfnFId1Zuu9C-YDTnlb8wZnp)
+🔗 Drive : [Project Report Link](https://drive.google.com/drive/folders/1W3eq0MiTP7r_bIHD5mx7to11FaKMMd3i?usp=sharing)
 
-🌐 Live Demo : [Demo Video Link ](https://drive.google.com/file/d/15qjKaZwaqULzqjYv2nuQnFOqPgyx15fo/view?usp=sharing)
+🌐 Live Demo : [Demo Video Link ](https://drive.google.com/file/d/1-VB0VQydtc_nt279G8jGF1LEiIu_kFkd/view?usp=sharing)
