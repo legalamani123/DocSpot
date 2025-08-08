@@ -1,73 +1,103 @@
-# DocSpot - Doctor Appointment Booking System
+# 🩺 DocSpot – Doctor Appointment App
 
-DocSpot is a full-stack doctor appointment booking system built using the **MERN stack** (MongoDB, Express, React, Node.js). It allows users to register, log in, browse doctors, book appointments, and view their bookings. Admins can manage doctor approvals and view all platform activity.
-
----
-
-## Features
-
-### 1. **Register**
-Users and Admins can create an account with name, email, password, and more.
-
-![Register](screenshots/Register.png)  <br>
+A simple and efficient full-stack doctor appointment booking system that allows patients to book, manage, and track doctor visits, and enables doctors and admins to streamline appointment workflows.
 
 ---
 
-### 2. **Login**
-After registering, users and admins can log in to access their dashboards.
+## 🚀 Features
 
-![Login](screenshots/login.png) <br>
-
----
-
-### 3. **Home Page**
-Clean and modern landing page with routes to login and register.
-
-![Home](screenshots/Home.png) <br>
-
----
-
-### 4. **User Dashboard**
-Once logged in, users can browse approved doctors and book appointments.
-
-![User Dashboard](screenshots/userdashboard.png) <br>
+- 👨‍⚕️ Doctor, Patient & Admin Login
+- 📅 Book, Reschedule, and Cancel Appointments
+- 📤 Upload Documents for Appointments
+- ✅ Admin Approval for New Doctors
+- 🕒 Real-Time Slot Availability
+- 📬 Email Notifications (can be extended)
+- 📜 View Appointment & Booking History
+- 📱 Responsive & Modern UI (Web + Mobile Friendly)
 
 ---
 
-### 5. **Book Appointment**
-Users can book an appointment with selected doctors and upload related documents.
+## 🛠️ Tech Stack
 
-![User Appointment](screenshots/userappointment.png) <br>
-
----
-
-### 6. **Admin Dashboard**
-Admins can view pending doctor registrations and approve/reject them.
-
-![Admin Dashboard](screenshots/admindashbord.png) <br>
+- **Frontend**: React, React Router, MDB UI Kit, Bootstrap  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB (via MongoDB Atlas)  
+- **Authentication**: JWT (JSON Web Tokens)  
 
 ---
 
-### 7. **Doctor Dashboard**
-Doctors can view the appointments made by users.
+## 📸 Screenshots
 
-![Doctor Dashboard](screenshots/Doctordashboard.png) <br>
+| Home | Register | Login |
+|------|----------|-------|
+| ![Home](screenshots/Home.png) | ![Register](screenshots/Register.png) | ![Login](screenshots/login.png) |
 
----
+| User Dashboard | Book Appointment | Doctor Dashboard |
+|----------------|------------------|------------------|
+| ![User Dashboard](screenshots/userdashboard.png) | ![User Appointment](screenshots/userappointment.png) | ![Doctor Dashboard](screenshots/Doctordashboard.png) |
 
-## Technologies Used
-
-- **Frontend**: React, React Router, Bootstrap, MDB UI Kit
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Atlas)
-- **Authentication**: JWT (JSON Web Tokens)
-
+| Admin Dashboard |
+|-----------------|
+| ![Admin Dashboard](screenshots/admindashbord.png) |
 
 ---
 
 ## Installation
 
-### Clone the repository:
+1. Clone the repository:
 
+  ```bash
+  git clone https://github.com/kusujanakiram/DocSpot.git  
+  cd doctor-appointment-app
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file and add your configuration:
+   ```env
+   DB_URI=your_database_uri
+   JWT_SECRET=your_secret
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+## 🧪 Testing
+
+Run tests using:
 ```bash
-git clone https://github.com/kusujanakiram/DocSpot.git
+npm test
+```
+
+## 📌 Future Enhancements
+
+- 👨‍⚕️ Doctor Profile Management
+- 💬 In-App Chat with Doctor
+- 📆 Calendar Sync (Google/Outlook)
+- 💳 Payment Gateway Integration
+- 🗣️ Multi-Language Support
+
+## 🐞 Known Issues
+
+- No calendar sync yet.
+- No push notification support (mobile).
+- UI glitches on very small screen sizes.
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Please fork the repository and submit a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+🔗 Drive : [Project Report Link](https://drive.google.com/drive/folders/1DLBsG5atRfnFId1Zuu9C-YDTnlb8wZnp)
+
+🌐 Live Demo : [Demo Video Link ](https://drive.google.com/file/d/15qjKaZwaqULzqjYv2nuQnFOqPgyx15fo/view?usp=sharing)
